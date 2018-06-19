@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">Название</string>
+    <string name="d_start">Дата начала</string>
+    <string name="app_name">Помни Всё</string>
+    <string name="new_reminder">Напоминание</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="time">Время</string>
+    <string name="error_parse">Ошибка парсинга даты из БД</string>
+    <string name="close">Закрыть</string>
+    <string name="action_delete_all">Удалить все</string>
+    <string name="action_delete">Удалить</string>
+    <string name="tab_active">Активные</string>
+    <string name="tab_inactive">Завершенные</string>
+    <string name="all_reminders">Все напоминания</string>
+    <string name="title_new_reminder">Новое напоминание</string>
+    <string name="date">Дата</string>
+    <string name="db_bad">БД повреждена.</string>
+    <string name="reminder">Напоминание</string>
+    <string name="postpone">Отложить</string>
+    <string name="stop">Завершить</string>
+    <string name="menu">Меню</string>
+    <string name="repeat_none">Без повторов</string>
+    <string name="repeat_hour">Каждый час</string>
+    <string name="repeat">Повторять</string>
+    <string name="repeat_week">Каждую неделю</string>
+    <string name="ok">Ок</string>
+    <string name="repeat_month">Каждый месяц</string>
+    <string name="repeat_day">Каждый день</string>
+    <string name="sound_on">Со звуком</string>
+    <string name="sound_off">Без звука</string>
+    <string name="title_edit_reminder">Редактирование</string>
+    <string name="title_show_reminder">Просмотр</string>
+    <string name="repeat_month_las_day">Каждый последний день месяца</string>
+</resources>

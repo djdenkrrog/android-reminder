@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Reminders</string>
+    <string name="db_bad">DB is bad.</string>
+    <string name="name">Name</string>
+    <string name="d_start">Date start</string>
+    <string name="new_reminder">Reminder</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+    <string name="error_parse">Error parse string date from DB</string>
+    <string name="close">Close</string>
+    <string name="action_delete_all">Delete all</string>
+    <string name="action_delete">Delete</string>
+    <string name="tab_active">Active</string>
+    <string name="tab_inactive">Inactive</string>
+    <string name="all_reminders">All reminders</string>
+    <string name="title_new_reminder">New reminder</string>
+    <string name="reminder">Reminder</string>
+    <string name="postpone">Postpone</string>
+    <string name="stop">Stop</string>
+    <string name="menu">Menu</string>
+    <string name="repeat_hour">Every hour</string>
+    <string name="repeat_none">No repeat</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_week">Every week</string>
+    <string name="repeat_month">Every month</string>
+    <string name="repeat_day">Every day</string>
+    <string name="ok">Ok</string>
+    <string name="sound_on">Sound On</string>
+    <string name="sound_off">Sound Off</string>
+    <string name="title_edit_reminder">Edit reminder</string>
+    <string name="title_show_reminder">Show reminder</string>
+    <string name="repeat_month_las_day">Every last day of the month</string>
+</resources>

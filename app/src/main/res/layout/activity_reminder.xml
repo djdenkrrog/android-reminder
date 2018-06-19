@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.djden.reminder.ReminderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|top"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/reminder_back"
+        android:orientation="vertical"
+        android:paddingBottom="11dp"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp"
+        android:paddingTop="1dp">
+
+        <TextView
+            style="@style/Header"
+            android:text="@string/reminder" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/reminder_message"
+                style="@style/ReminderMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center|top"
+                android:text="Old_text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/reminder_postpone"
+                    style="@style/ReminderButton"
+                    android:layout_weight="1"
+                    android:onClick="onClickPostpone"
+                    android:visibility="invisible"
+                    android:text="@string/postpone" />
+
+                <Button
+                    style="@style/ReminderButton"
+                    android:layout_weight="1"
+                    android:onClick="onClickStop"
+                    android:text="@string/stop" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
